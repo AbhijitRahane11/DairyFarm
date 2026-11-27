@@ -646,9 +646,6 @@
         <mxCell id="aO9RcJA9YVRDfvgBCQdg-8" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;strong&gt;NotificationOutbox&lt;/strong&gt;" vertex="1">
           <mxGeometry height="40" width="140" x="670" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="mYZ64M1hP2vQqM2aNvtF-1" edge="1" parent="1" source="aO9RcJA9YVRDfvgBCQdg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="aO9RcJA9YVRDfvgBCQdg-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="aO9RcJA9YVRDfvgBCQdg-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;p&gt;NotificationOutboxId(&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;PK)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;PersonId(&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;FK)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Channel&lt;/p&gt;&lt;p&gt;Recipient&lt;/p&gt;&lt;p&gt;PayloadJson&lt;/p&gt;&lt;p&gt;DeliveryStatus&lt;/p&gt;&lt;p&gt;AttemptCount&lt;/p&gt;&lt;p&gt;NextAttemptAtUtc&lt;/p&gt;&lt;p&gt;CreatedAtUtc&lt;/p&gt;&lt;p&gt;SentAtUtc(&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Nullable)&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="280" width="160" x="660" y="370" as="geometry" />
         </mxCell>
@@ -722,6 +719,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u7fbfDUwn1uiWPGPyrUO-11" edge="1" parent="1" source="u7fbfDUwn1uiWPGPyrUO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.929;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="aO9RcJA9YVRDfvgBCQdg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYZ64M1hP2vQqM2aNvtF-1" edge="1" parent="1" source="aO9RcJA9YVRDfvgBCQdg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="aO9RcJA9YVRDfvgBCQdg-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mYZ64M1hP2vQqM2aNvtF-2" edge="1" parent="1" source="aO9RcJA9YVRDfvgBCQdg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.933;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="aO9RcJA9YVRDfvgBCQdg-13">
